@@ -1,0 +1,4 @@
+PyInstaller
+PySide6
+minecraft-launcher-lib
+psutil
