@@ -20,3 +20,10 @@ This guide is intended for developers who want to build, test, and package the l
 
 ```bash
 pip install -r requirements.txt
+```
+## Build as EXE (Windows)
+
+```bash
+python -m PyInstaller build.spec --clean --noconfirm
+# Output → dist/AsphaltLauncher.exe
+```
